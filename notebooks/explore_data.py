@@ -35,6 +35,7 @@ regional_market_map = {
         {'country': 'South Africa', 'code': 'ZA', 'tax_rate': 1.15, 'currency_rate': 18.00, 'currency_code': 'ZAR'}
     ]
 }
+
 # The following code is for converting a nested dictionary like the above to a DataFrame.
 
 # to_normalize_map = [{'region': region, 'countries':countries} for region, countries in regional_market_map.items()]
